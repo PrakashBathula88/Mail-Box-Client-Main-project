@@ -1,0 +1,99 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(135, 207, 235, 0.077);
+  height: 70px;
+  z-index: -12;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul div {
+  margin-right: 100px;
+  justify-content: end;
+  display: flex;
+}
+
+nav ul div:last-child {
+  margin-right: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #202124;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+  margin: 10px 4px 4px;
+}
+nav ul li:first-child a img {
+  width: 119px;
+  height: 40px;
+  margin: 14px;
+  margin-left: 40px;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-container li input[type="search"] {
+  padding: 10px 1px 10px 40px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  width: 800px;
+  margin-right: 200px;
+  border-radius: 24px;
+  background-color: #eaf1fb;
+  transition: transform 0.3s ease;
+}
+.search-container :hover {
+  transform: scale(1.01);
+}
+.search-icon {
+  position: absolute;
+  right: 200px;
+  color: #333;
+}
+
+.question {
+  margin: 0px 0px 15px -80px;
+  font-size: 10px;
+}
+.question li {
+  padding: 4px;
+  cursor: pointer;
+  display: block;
+  height: 24px;
+  margin: 2px;
+  padding: 8px;
+  width: 36px;
+  color: #333333be;
+}
+.signin {
+  color: #333333be;
+}
+
+.question svg {
+  font-size: 26px;
+}
