@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mail-Box-Client-Main-project/static/css/main.23107fdc.css",
+    "main.js": "/Mail-Box-Client-Main-project/static/js/main.37101e71.js",
+    "static/js/453.7556692c.chunk.js": "/Mail-Box-Client-Main-project/static/js/453.7556692c.chunk.js",
+    "index.html": "/Mail-Box-Client-Main-project/index.html",
+    "main.23107fdc.css.map": "/Mail-Box-Client-Main-project/static/css/main.23107fdc.css.map",
+    "main.37101e71.js.map": "/Mail-Box-Client-Main-project/static/js/main.37101e71.js.map",
+    "453.7556692c.chunk.js.map": "/Mail-Box-Client-Main-project/static/js/453.7556692c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23107fdc.css",
+    "static/js/main.37101e71.js"
+  ]
+}
